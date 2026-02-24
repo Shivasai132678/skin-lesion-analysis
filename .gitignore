@@ -1,0 +1,32 @@
+# Large dataset folders - download from Kaggle
+archive (2)/
+archive (3)/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weights (if large)
+*.h5
+*.pt
+*.pth
+*.onnx

@@ -1,0 +1,26 @@
+
+WEEK 2 ERROR ANALYSIS REPORT
+============================
+
+1. MODEL CONFIGURATION
+   Architecture: U-Net
+   Encoder: ResNet18 (ImageNet pretrained)
+   Loss Function: Dice Loss
+   Optimizer: Adam (lr=1e-4)
+   Input Size: 256x256
+
+2. PERFORMANCE METRICS
+   Dice:      0.8658 ± 0.1549
+   IoU:       0.7878 ± 0.1819
+   Precision: 0.8675 ± 0.1668
+   Recall:    0.9103 ± 0.1476
+   Accuracy:  0.9481 ± 0.0763
+
+3. TOTAL VALIDATION SAMPLES: 519
+
+4. FILES GENERATED:
+   - segmentation_overlays.png
+   - metric_comparison_table.csv
+   - error_analysis_worst_cases.png
+   - error_analysis_best_cases.png
+   - error_analysis_report.txt
